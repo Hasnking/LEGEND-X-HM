@@ -37,7 +37,7 @@ global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
-global.autoreaction = process.env.autoreaction || "true";
+global.autoreaction = process.env.autoreaction || "false";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://pair-qr-wasi-md.onrender.com";
